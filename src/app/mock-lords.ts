@@ -2,7 +2,7 @@ import { Lordtype } from "./lordtype";
 
 export const LORDS: Lordtype[] = [
     {id: 1, name: "Lord Vasraan", bio: "Vas", quote: "", imgsrc: "/assets/images/Vasraan.jpg"},
-    {id: 2, name: "Lord Executor Val'haar", bio: "Val", quote: "They are a plague that will be cleansed by the might of the Empire", imgsrc: "/assets/images/valharr.jpg"},
+    {id: 2, name: "Lord Executor Val'haar", bio: "Val", quote: "They are a plague that will be cleansed by the might of the Empire", imgsrc: "/assets/images/Val2.png"},
     {id: 3, name: "Lord Arcanus Yvass", bio: "Arc", quote: "Pathetic", imgsrc: "/assets/images/Yvass.jpg"},
     {id: 4, name: "Lord Shadowhand Dauphine", bio: "Shad", quote: "Quote", imgsrc: "/assets/images/Dauphine.jpg"},
     {id: 5, name: "Lord Overseer Itharias", bio: "Over", quote: "Quote", imgsrc: "/assets/images/Itharias.png"},
