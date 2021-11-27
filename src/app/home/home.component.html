@@ -1,0 +1,23 @@
+<nav>
+    <a routerLink="/home">
+      <div id="bannerimage">
+          <img class="banner-image" src="/assets/images/imperialsymbol.png" alt="">
+          <img class="banner-image" src="/assets/images/sithsymbol.png" alt="">
+      </div>
+    </a>
+  </nav>
+  <h1 class="title-header">THE EMPIRE KEEPS YOU SAFE, STAND FIRM CITIZEN!</h1>
+  <div class="lord-list">
+    <div *ngFor="let lord of lords">
+        <nav>
+            <a routerLink="/lord-detail/{{lord.id}}">
+                <app-lord
+                    [lordImgsrc] = "lord.imgsrc"
+                    [lordName] = "lord.name"
+                    [lordBio] = "lord.bio"
+                    [lordQuote] = "lord.quote">
+                </app-lord>
+            </a>
+        </nav>
+      </div>
+  </div>
