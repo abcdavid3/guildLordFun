@@ -3,13 +3,13 @@
     height: 400px;
     width: 300px;
     margin: 15px;
-    color: black;
-    text-shadow: 1px 1px 2px rgba(255,0,0,0.65);
+    color: red;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.65);
 }
 
 .lord-class :hover {
-    color: red;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
+    color: black;
+    text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.65);
 }
 
 a:-webkit-any-link { text-decoration: none; }
