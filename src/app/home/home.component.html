@@ -8,6 +8,30 @@
   </nav>
   <h1 class="title-header">THE EMPIRE KEEPS YOU SAFE, STAND FIRM CITIZEN!</h1>
   <h2 class="title-header">CLICK BELOW TO FIND OUT MORE ABOUT YOUR SYSTEMS DEFENDERS!</h2>
+  <div class="home-main">
+  <carousel class="carousel-cage"
+  [arrows]="false"
+  [autoplay]="true"
+  [cellsToShow]="3"
+  [borderRadius]="10"
+  [height]="400"
+  [objectFit]="'contain'">
+    <div class="carousel-cell">
+        <img src="/assets/images/battle.jpg">
+    </div>
+    <div class="carousel-cell">
+        <img src="/assets/images/battle2.jpg">
+    </div>
+    <div class="carousel-cell">
+        <img src="/assets/images/battle3.jpg">
+    </div>
+    <div class="carousel-cell">
+        <img src="/assets/images/battle4.jpg">
+    </div>
+    <div class="carousel-cell">
+        <img src="/assets/images/battle5.jpg">
+    </div>
+  </carousel>
   <div class="lord-list">
     <div *ngFor="let lord of lords">
         <nav>
@@ -22,3 +46,4 @@
         </nav>
       </div>
   </div>
+</div>

@@ -5,7 +5,7 @@
 
 .details {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'Space Mono', monospace;
 }
 
@@ -62,6 +62,10 @@
     background-size: cover;
 }
 
+.side-note {
+    font-size: 10px;
+}
+
 .details-main {
     border: 3px solid #00000079;
     background-color: rgba($color: #6b6868, $alpha: 0.5);
@@ -78,13 +82,12 @@
 }
 
 .details-image {
-    max-height: 500px;
     margin: 25px;
 }
 
 .details-image img {
     height: 100%;
     max-height: 100%;
-    max-width: 700px;
+    max-width: 600px;
     box-shadow: 1px 1px 10px rgba(255,0,0,0.65);
 }
