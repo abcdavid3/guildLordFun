@@ -10,6 +10,12 @@
 .lord-class :hover {
     color: black;
     text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.65);
+    box-shadow: 3px 3px 10px rgba(255,0,0,0.65);
+}
+
+.lord-class :active {
+    box-shadow: inset 4px 4px 5px #411111;
+    outline: none;
 }
 
 a:-webkit-any-link { text-decoration: none; }
@@ -44,6 +50,15 @@ a {
 }
 
 .lord-title {
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+}
+
+.lord-title a {
     text-align: center;
     position: relative;
     bottom: 60px;
